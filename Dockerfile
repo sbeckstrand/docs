@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Install dependencies using pipenv
-RUN pipenv install --dev --system --deploy
+RUN pipenv install --dev --deploy
 
 # Expose the default MkDocs port
 EXPOSE 8000
