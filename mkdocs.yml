@@ -1,0 +1,24 @@
+site_name: Stephen's Docs
+nav:
+  - Home: index.md
+  - Games:
+    - Balatro: games/balatro.md
+    - Final Fantasy Tactics Advance: games/ffta.md
+theme:
+  name: dracula  # You can switch to other themes if desired
+  color_mode: dark
+  custom_dir: custom_theme/
+
+plugins:
+  - search
+
+extra_css:
+  - assets/css/styles.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+markdown_extensions:
+  - tables
+  - attr_list 
