@@ -2,8 +2,11 @@ site_name: Stephen's Docs
 nav:
   - Home: index.md
   - Games:
-    - Balatro: games/balatro.md
-    - Final Fantasy Tactics Advance: games/ffta.md
+    - Balatro:
+      - Jokers: games/balatro/jokers.md
+      - Combos: games/balatro/combos.md
+      - Seeds: games/balatro/seeds.md
+      
 theme:
   name: dracula  # You can switch to other themes if desired
   color_mode: dark
