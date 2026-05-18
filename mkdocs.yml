@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - Home Lab:
     - Kubernetes Cluster: homelab/k3s.md
+    - CI/CD: homelab/cicd.md
   - Games:
     - Balatro:
       - Jokers: games/balatro/jokers.md
