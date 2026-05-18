@@ -1,6 +1,8 @@
 site_name: Stephen's Docs
 nav:
   - Home: index.md
+  - Home Lab:
+    - Kubernetes Cluster: homelab/k3s.md
   - Games:
     - Balatro:
       - Jokers: games/balatro/jokers.md
